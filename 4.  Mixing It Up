@@ -11,6 +11,17 @@ puts '   '
 puts '   '
 puts '   '
 
+# Write a program which asks for a person's favorite number. Have your
+#program add one to the number, then suggest the result as a bigger and
+#better favorite number.
+
+
+#tip:
+#better is a fixnum .  In order to add it to the string,
+# we need to convert it to a string.
+
+
+
 puts 'What\'s your favorite number ?'
 number = gets.chomp
 try = number.to_i + 1 
