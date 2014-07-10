@@ -16,7 +16,7 @@ puts '   '
 #better favorite number.
 
 
-#tip:
+# note:
 #better is a fixnum .  In order to add it to the string,
 # we need to convert it to a string.
 
