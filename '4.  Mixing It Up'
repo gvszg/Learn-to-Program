@@ -1,0 +1,18 @@
+puts 'Hi,there, and what\'s your first name?'
+first = gets.chomp
+puts 'And then, your middle name?'
+middle = gets.chomp
+puts 'Oh, don\'t forget your last name.'
+last = gets.chomp
+puts first +' '+ middle +' '+ last + '  !'
+puts 'Good day!'
+
+puts '   '
+puts '   '
+puts '   '
+
+puts 'What\'s your favorite number ?'
+number = gets.chomp
+try = number.to_i + 1 
+puts ' This is better:   ' + try.to_s 
+
